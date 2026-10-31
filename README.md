@@ -91,4 +91,52 @@ Kelas 3E - Pendidikan Matematika
 
 ## Status Proyek
 
-Tahap perancangan (Pertemuan 14). Implementasi dan hasil pengujian akan ditambahkan pada Pertemuan 15.
+## Hasil Implementasi Pertemuan 15
+
+Program Rekap dan Analisis Nilai Matematika Kelas telah diimplementasikan menggunakan Python dengan pendekatan modular.
+
+### Modul Program
+
+- `src/main.py`: Mengatur alur utama program.
+- `src/data_io.py`: Membaca data siswa dan menyimpan laporan.
+- `src/analisis.py`: Menghitung statistik nilai dan ketuntasan.
+- `src/utilitas.py`: Memvalidasi nilai dan menentukan status siswa.
+
+### Hasil Program
+
+Berdasarkan 10 data siswa pada `data/nilai_contoh.txt`, diperoleh hasil:
+
+| Keterangan | Hasil |
+|---|---|
+| Jumlah siswa | 10 |
+| Rata-rata nilai | 77,50 |
+| Nilai terendah | 55 |
+| Nilai tertinggi | 100 |
+| KKM | 75 |
+| Siswa tuntas | 6 |
+| Siswa belum tuntas | 4 |
+
+Hasil analisis disimpan secara otomatis ke dalam file `output/hasil_rekap.txt`.
+
+### Pengujian Program
+
+Pengujian dilakukan menggunakan delapan test case yang mencakup data normal, nilai batas, input tidak valid, file tidak ditemukan, seluruh siswa tuntas, dan data kosong.
+
+Hasil pengujian yang telah dilaksanakan dicatat pada `tests/test_case.md`.
+
+### Catatan Debugging
+
+Pada proses implementasi ditemukan kesalahan `ImportError` ketika fungsi `baca_data` belum dapat diimpor dari modul `data_io.py`.
+
+Kesalahan diperbaiki dengan melengkapi fungsi pada modul tersebut.
+
+Selain itu, ditemukan masalah nama file input yang memiliki tanda titik tambahan. Masalah diperbaiki dengan menyesuaikan nama file menjadi `nilai_contoh.txt`.
+
+### Kontribusi Pengembang
+
+Proyek dikerjakan secara individu oleh Farid Ardiansah (2225250125), meliputi perancangan, implementasi, pengujian, debugging, dan dokumentasi.
+
+### Status Proyek
+
+Implementasi program selesai. Program utama telah berhasil dijalankan, menghasilkan analisis nilai yang sesuai, dan menyimpan laporan ke file teks.
+

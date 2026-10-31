@@ -9,4 +9,3 @@ Gina,80
 Hadi,75
 Intan,100
 Joko,65
-

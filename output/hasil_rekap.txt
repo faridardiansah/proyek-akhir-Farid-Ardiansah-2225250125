@@ -1,0 +1,20 @@
+HASIL ANALISIS NILAI MATEMATIKA
+===================================
+Andi: 85 - Tuntas
+Budi: 70 - Belum Tuntas
+Citra: 90 - Tuntas
+Dina: 60 - Belum Tuntas
+Eka: 95 - Tuntas
+Fajar: 55 - Belum Tuntas
+Gina: 80 - Tuntas
+Hadi: 75 - Tuntas
+Intan: 100 - Tuntas
+Joko: 65 - Belum Tuntas
+
+Jumlah Siswa     : 10
+Rata-rata Nilai  : 77.50
+Nilai Terendah   : 55
+Nilai Tertinggi  : 100
+KKM              : 75
+Jumlah Tuntas    : 6
+Belum Tuntas     : 4
